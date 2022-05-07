@@ -246,6 +246,7 @@ local Handle = Instance.new("Part",Char)
 Handle.CanCollide = false
 Handle.Size = Vector3.new(0.122, 0.182, 1.397)
 Handle.Color = Color3.fromRGB(40,40,40)
+Handle.Transparency = 1
 
 RJ = CreateWeld({Part0 = RootPart,Part1 = Torso,Parent = RootPart})
 Neck = CreateWeld({Part0 = Torso,Part1 = Head,C0 = CFrame.new(0,1.5,0),Parent = RootPart})
